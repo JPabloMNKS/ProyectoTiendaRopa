@@ -10,6 +10,14 @@ body {
   margin-top: 70px;
 }
 
+.button{
+  border-radius: 8px;
+  border: none;
+  background: #168beb;
+  color: white;
+  padding: 7px;
+}
+
 .title-a {
   font-size: 24px;
   margin-top: 0;
@@ -34,6 +42,9 @@ body {
 .menu {
   font-size: 24px;
   display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 0;
 }
 
 .menu li {
@@ -46,13 +57,14 @@ body {
 }
 
 .header {
-  /* width: 800px;
-  margin: auto; */
+  position: relative;
+  /* border: 1px solid black; */
+  /* display: inline; */
 }
 
 .ropas h2 {
   font-family: 'Montserrat',sans-serif;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .ropas{
@@ -60,15 +72,16 @@ body {
 }
 
 .contenedor{
-  width: 800px;
+  width: 1000px;
   margin: auto;
 }
 
 .ropa{
-  margin: 10px;
-  padding: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
   overflow: hidden;
-  border: 1px solid #1F313C;
+  border: 2px solid #1F313C;
+  border-radius: 20px;
 }
 
 .derecha{
@@ -79,10 +92,78 @@ body {
   float: left;
 }
 
+.ropas li{
+  display: block;
+  font-size: 20px
+
+}
+
 .contenedor-pantalon{
-  margin-left: 10px;
+  margin-left: 55px;
 }
 
 .contenedor-polera{
   padding-left: 450px;
+}
+
+.footer{
+  background: #abd23c;
+}
+
+.contacto{
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contacto img{
+  display: block;
+}
+
+.contacto strong{
+  display: block;
+}
+
+.contacto a{
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario{
+  display: flex;
+  width: 450px;
+  color: white;
+  padding: 50px 10px;
+}
+
+.col1, .col2{
+  display: flex;
+  flex-direction: column;
+}
+
+.col1{
+  margin-right: 15px;
+}
+
+.col2{
+  align-items: flex-start;
+}
+
+.intereses label{
+  font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses{
+  margin-bottom: 10px;
+}
+
+.sexo{
+  margin-top: 10px;
 }
