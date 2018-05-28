@@ -18,6 +18,7 @@ body {
 .title-b {
   font-size: 50px;
   margin-bottom: 20px;
+  /* margin-left: 50px */
 }
 
 .portada {
@@ -49,17 +50,39 @@ body {
   margin: auto; */
 }
 
-.ropa h2 {
+.ropas h2 {
   font-family: 'Montserrat',sans-serif;
   font-size: 35px;
 }
 
-.ropa {
+.ropas{
   color: #1F313C;
 }
 
 .contenedor{
   width: 800px;
   margin: auto;
+}
 
+.ropa{
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #1F313C;
+}
+
+.derecha{
+  float: right;
+}
+
+.izquierda{
+  float: left;
+}
+
+.contenedor-pantalon{
+  margin-left: 10px;
+}
+
+.contenedor-polera{
+  padding-left: 450px;
 }
