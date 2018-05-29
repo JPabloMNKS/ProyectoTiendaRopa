@@ -5,32 +5,35 @@ body {
 
 .header {
   position: relative;
-  border: 1px solid black;
-  display: inline;
+  display: flex;
+  background: black;
 }
 
 .contenedor{
-  width: 1000px;
+  width: 100%;
   margin: auto;
-
 }
 
 .logotipo {
   display: block;
-  margin-left: 350px;
+  margin-left: 50px;
 }
 
 .menu {
   font-size: 24px;
-  display: inline-block;
-  /* position: absolute; */
-  /* top: 30px;
-  right: 0; */
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
 
 .menu li {
-  display: inline-block;
+  display: inline;
   margin-left: 12px
+}
+
+.menu a{
+  color: white;
 }
 
 .portada {
@@ -42,7 +45,7 @@ body {
 }
 
 .portada button{
-  margin-bottom: 65px;
+  margin-bottom: 175px;
 }
 
 .titulo {
@@ -110,7 +113,7 @@ body {
 }
 
 .footer{
-  background: #39A1E5;
+  background: black;
 }
 
 .contacto{
