@@ -3,6 +3,48 @@ body {
   margin: 0;
 }
 
+.header {
+  position: relative;
+  border: 1px solid black;
+  display: inline;
+}
+
+.contenedor{
+  width: 1000px;
+  margin: auto;
+
+}
+
+.logotipo {
+  display: block;
+  margin-left: 350px;
+}
+
+.menu {
+  font-size: 24px;
+  display: inline-block;
+  /* position: absolute; */
+  /* top: 30px;
+  right: 0; */
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 12px
+}
+
+.portada {
+  background-image: url('../imagenes/tienda_ropa_tres.jpg');
+  color: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.portada button{
+  margin-bottom: 65px;
+}
+
 .titulo {
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
@@ -13,7 +55,7 @@ body {
 .button{
   border-radius: 8px;
   border: none;
-  background: #168beb;
+  background: #abd23c;
   color: white;
   padding: 7px;
 }
@@ -29,37 +71,8 @@ body {
   /* margin-left: 50px */
 }
 
-.portada {
-  background-image: url('../imagenes/tienda_ropa.jpg');
-  color: white;
-  padding: 20px;
-}
-
-.portada button{
-  margin-bottom: 65px;
-}
-
-.menu {
-  font-size: 24px;
-  display: inline-block;
-  position: absolute;
-  top: 30px;
-  right: 0;
-}
-
-.menu li {
-  display: inline-block;
-  margin-left: 12px
-}
-
-.logotipo {
-  display: inline-block;
-}
-
-.header {
-  position: relative;
-  /* border: 1px solid black; */
-  /* display: inline; */
+.ropas{
+  color: #1F313C;
 }
 
 .ropas h2 {
@@ -67,13 +80,9 @@ body {
   font-size: 45px;
 }
 
-.ropas{
-  color: #1F313C;
-}
-
-.contenedor{
-  width: 1000px;
-  margin: auto;
+.ropas li{
+  display: block;
+  font-size: 20px
 }
 
 .ropa{
@@ -92,12 +101,6 @@ body {
   float: left;
 }
 
-.ropas li{
-  display: block;
-  font-size: 20px
-
-}
-
 .contenedor-pantalon{
   margin-left: 55px;
 }
@@ -107,7 +110,7 @@ body {
 }
 
 .footer{
-  background: #abd23c;
+  background: #39A1E5;
 }
 
 .contacto{

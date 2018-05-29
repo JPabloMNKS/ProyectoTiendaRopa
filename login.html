@@ -2,12 +2,11 @@
 <html lang="es">
 
 <head>
-  <title>Smile tu tienda favorita!</title>
+  <title>Login Smile</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/smile.css">
+  <link rel="stylesheet" href="css/login.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
   <header id="header" class="header contenedor">
     <!-- header -->
@@ -27,61 +26,21 @@
         <li>
           <a href="">Categorias</a>
         </li>
-        <li>
-          <a href="login.html">Login</a>
-        </li>
-        <li>
-          <a href="">Facebook</a>
-        </li>
-
       </ul>
     </nav>
   </header>
-  <section id="portada" class="portada">
-    <div class="contenedor">
-      <!-- portada -->
-      <h1 class="titulo">Smile</h1>
-      <!-- titulo -->
-      <h3 class="title-a">La actitud es todo</h3>
-      <!-- resumen -->
-      <button class="button">Conoce más</button>
-      <!-- boton -->
-    </div>
-  </section>
-  <section id="ropas" class="ropas contenedor">
-    <!-- ropa -->
-    <h2>Nuestros Productos</h2>
-    <!-- titulo  -->
-    <article class="ropa">
-      <!-- lista de Pantalones -->
-      <img class="derecha" src="imagenes/pantalones.jpeg" alt="Pantalones" width="300" height="250">
-      <div class="contenedor-pantalon">
-        <h3 class="title-b">Pantalones</h3>
-        <ol>
-          <li>Jeans</li>
-          <li>Calzas</li>
-          <li>Formales</li>
-          <li>Cortos</li>
-        </ol>
-      </div>
-    </article>
 
-    <!-- // TODO: aumentar lista de ropas -->
-
-    <article class="ropa">
-      <!-- lista de blusas -->
-      <img class="izquierda" src="imagenes/blusas.jpg" alt="Blusas" width="300" height="250">
-      <div class="contenedor-polera">
-        <h3 class="title-b">Poleras</h3>
-        <ol>
-          <li>Manga corta</li>
-          <li>Manga larga</li>
-          <li>Blusas</li>
-          <li>Algun otro tipo mas</li>
-        </ol>
-      </div>
-    </article>
-  </section>
+<section class="login">
+  <div class="login__contenedor">
+          <form class="login__form">
+              <input type="text" placeholder="&#128100; Usuario" required autofocus>
+              <input type="password" placeholder="&#x1F512; contraseña" required>
+              <input class="btn__aceptar" type="submit" value="ENTRAR">
+              <a class="form__recuperar" href="">Olvidaste la contraseña?</a>
+              <a class="form__registrar" href="">Desea resgistrarse?</a>
+          </form>
+  </div>
+</section>
 
   <footer class="footer">
     <div class="contenedor">
@@ -131,6 +90,5 @@
     </div>
   </footer>
 
-</body>
 
-</html>
+</body>
